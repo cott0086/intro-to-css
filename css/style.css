@@ -3,7 +3,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
-    margin: 0%;
+    margin: 0;
     background-color: #7251b5;
 }
 
@@ -20,13 +20,13 @@ header, footer {
     color: #dec9e9;
 }
 
-.Wrapper {
+.wrapper {
     max-width: 940px;
     margin: 0 auto;
     padding: 2em;
 }
 
-li {
+ul, ol {
     padding: 0;
     list-style: none;
 }
@@ -36,7 +36,7 @@ nav li {
     text-decoration: none;
 }
 
-section, #intro {
+#intro + section {
     background-color: #000;
     color: #dec9e9;
 }
